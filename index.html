@@ -21,9 +21,116 @@
   </nav>
   </header>
 
-    <style>
     
-    * {
+    <style>
+      
+      /*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*my cod will start from here*/
+* {
   text-decoration: none;
 }
 
@@ -126,7 +233,7 @@ header .header-cases {
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+  background-image: url(pexels-photo-207962.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,8 +339,82 @@ header .header-cases {
 }
 }
 
+/*CASES*/
 
-/*FOOTEr*/
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cases-links h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.cases-links .cases-link {
+  float: left;
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+
+}
+
+.cases-links .cases-link p {
+  padding-top: 45%;
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+/*CASE*/
+
+.case-vid h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.case-vid video {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+
+.case-vid article h3 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.case-vid article div p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #111;
+  text-transform: full-width;
+  column-count: 3;
+  column-gap: 30px;
+}
+
+
+/*FOOTER*/
 
 footer {
   width: calc(100% - 80px);
@@ -294,15 +475,13 @@ text-transform: uppercase;
 }
 }
 
+      
+      
+    </style>
     
-    
-    
-    </style>    
     
     
   <main>
-
-
 
     <section class="index-banner">
       <div class="vertical-center">
@@ -375,8 +554,3 @@ text-transform: uppercase;
 
   </body>
 </html>
-
-
-
-
-
